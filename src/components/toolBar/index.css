@@ -1,0 +1,16 @@
+.toolbar {
+  padding: 10px;
+  display: flex;
+  overflow: auto;
+  flex-shrink: 0;
+  height: 150px;
+  /* background-color: #f5f6f7; */
+  border: 1px solid #f5f6f7;
+}
+.toolbar-item {
+  margin: 0 5px;
+}
+
+.divider {
+  margin: 0 5px;
+}
