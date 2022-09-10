@@ -1,0 +1,85 @@
+.colorpanel{
+  position: relative;
+  border: 1px solid #fff;
+  width: auto;
+  padding: 4px;
+}
+.content {
+  display: flex;
+}
+.color-result {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.color-result .main-color,
+.color-result .sub-color {
+  font-size: 14px;
+  cursor: pointer;
+}
+.color-result .main-color:hover,
+.color-result .sub-color:hover {
+  background-color: #d5e3f3;
+  border: #cbe0f7;
+}
+.color-result .sub-color{
+  margin-top: 15px;
+}
+.color-result .main-color.active-color-type {
+  background-color: #bcdbfa;
+  border: 1px solid #a1cefa;
+  color: rgb(0, 0, 0);
+}
+.color-result .sub-color.active-color-type {
+  background-color: #bcdbfa;
+  border: 1px solid #a1cefa;
+  color: rgb(0, 0, 0);
+}
+.color-template {
+  display: flex;
+  align-items: center;
+  justify-content: first baseline;
+  flex-wrap: wrap;
+  width: 130px;
+  z-index: 1;
+}
+.color-template .color-template-item {
+  width: 20px;
+  height: 20px;
+  margin: 4px;
+  cursor: pointer;
+}
+.color-template .color-template-item:hover {
+  border: 2px solid #fff;
+}
+/* picker color */
+.color-picker .react-colorful {
+  height: 100px;
+}
+.color-picker .react-colorful__saturation {
+  border-radius: 4px 4px 0 0;
+}
+.color-picker .react-colorful__hue {
+  height: 20px;
+  border-radius: 0 0 4px 4px;
+}
+.color-picker .react-colorful__hue-pointer {
+  width: 12px;
+  height: inherit;
+  border-radius: 0;
+}
+.color-picker .color-input {
+  width: 180px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.color-picker .color-picker-editor {
+  font-size: 14px;
+}

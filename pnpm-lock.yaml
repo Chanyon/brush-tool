@@ -9,6 +9,7 @@ specifiers:
   '@types/react-dom': ^18.0.6
   '@vitejs/plugin-react': ^2.1.0
   react: ^18.2.0
+  react-colorful: ^5.6.1
   react-dom: ^18.2.0
   typescript: ^4.6.4
   vite: ^3.1.0
@@ -19,6 +20,7 @@ dependencies:
   '@mui/icons-material': 5.10.3_1ce34af7faf73b059e9dbb9474a4e950
   '@mui/material': 5.10.4_a86e21df1b0967221406a3a6b3016e65
   react: 18.2.0
+  react-colorful: 5.6.1_react-dom@18.2.0+react@18.2.0
   react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
@@ -1193,6 +1195,16 @@ packages:
       loose-envify: 1.4.0
       object-assign: 4.1.1
       react-is: 16.13.1
+    dev: false
+
+  /react-colorful/5.6.1_react-dom@18.2.0+react@18.2.0:
+    resolution: {integrity: sha512-1exovf0uGTGyq5mXQT0zgQ80uvj2PCwvF8zY1RN9/vbJVSjSo3fsB/4L3ObbF7u70NduSiK4xu4Y6q1MHoUGEw==}
+    peerDependencies:
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /react-dom/18.2.0_react@18.2.0:

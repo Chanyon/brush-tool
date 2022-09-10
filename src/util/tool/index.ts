@@ -1,3 +1,4 @@
 import Pen from './pen';
+import Tool from './tool';
 
-export {Pen};
+export {Pen, Tool};

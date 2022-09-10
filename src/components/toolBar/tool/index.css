@@ -15,11 +15,11 @@
   padding: 4px;
 }
 .toolpanel .tool-item.selected-tool {
-  background-color: #bcdbfa;
+  background-color: #bcdbfa; /*5e5e63*/
 }
-.tool-item:hover {
+/* .tool-item:hover {
   border: 1px solid #64a5e7;
-}
+} */
 .title {
   width: 100%;
   text-align: center;

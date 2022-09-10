@@ -3,7 +3,7 @@
   display: flex;
   overflow: auto;
   flex-shrink: 0;
-  height: 150px;
+  height: 200px;
   /* background-color: #f5f6f7; */
   border: 1px solid #f5f6f7;
 }

@@ -5,9 +5,11 @@ import Tool from "../../util/tool/tool";
 import { ToolType } from "../../util/toolType";
 interface CanvasProps {
   toolType: ToolType,
+  mainColor: string,
+  subColor: string,
 }
 const Canvas:FC<CanvasProps> = (props) => {
-  const {toolType} = props;
+  const {toolType, mainColor, subColor} = props;
   const [tool,setTool] = useState<Tool>();
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
@@ -21,6 +23,14 @@ const Canvas:FC<CanvasProps> = (props) => {
         break;
     }
   },[toolType]);
+
+  // color
+  useEffect(()=>{
+    Tool.mainColor = mainColor;
+  },[mainColor]);
+  useEffect(()=>{
+    Tool.subColor = subColor;
+  },[subColor]);
 
   // canvas 
   useEffect(()=>{
